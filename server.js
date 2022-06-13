@@ -13,7 +13,6 @@ app.set('view engine', 'ejs')
 // Mount Middleware (app.use)
 
 
-
 // Mount routes
 app.get('/', function(req, res) {
   res.send('<h1> hello, friends </h1>')
